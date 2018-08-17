@@ -75,7 +75,7 @@ class samplePage extends Page {
       return browser.element('//*[@id="add_to_cart"]/button')
     }
     get buy(){
-      return browser.element('//p//span//i[@class="icon-chevron-right right"]')
+      return browser.element('//a[contains(@class,"medium")]')
     }
   goToHome () {
     browser.url('http://automationpractice.com');
